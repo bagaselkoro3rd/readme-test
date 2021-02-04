@@ -22,7 +22,7 @@ Live Demo Can access at <a href="http://explore-ci3.epizy.com/">http://explore-c
 
 1. Go to htdocs and open the terminal there
 
-2. Copy and paste the following command into terminal 
+2. Copy and paste the following command into terminal <br>
    `> $ git clone https://github.com/bagaselkoro3rd/readme-test.git`
 
 3. import db_codeigniter3.sql into phpMyadmin
