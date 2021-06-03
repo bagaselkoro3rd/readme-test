@@ -1,13 +1,20 @@
-# CharysaStore Landing Page
+# T-Gadget Home Page
 
-## Tools & stack
-- [x] ES6
-- [x] CSS3
+## 1. Tools & Stack
 - [x] VS Code
-- [x] GIMP
+- [x] PhpMyadmin
+- [x] PHP Native (MVC)
+- [x] Tailwind
+- [x] JQuery
+- [x] glide.js
+- [x] GSAP
 
-## Screenshoot & Demo
-Live Demo Can access at <a href="https://charysastore.netlify.app/">https://charysastore.netlify.app/</a> <br><br>
-<img src="img/screenshoot/home.webp" width="860px" /><br>
-<img src="img/screenshoot/testi.webp" width="860px" /><br>
-<img src="img/screenshoot/produk.webp" width="860px" /><br>
+## 2. Preview
+Live Demo Can access at <a href="https://t-gadget.herokuapp.com/">https://t-gadget.herokuapp.com/</a> <br><br>
+
+> Desktop
+> <img src="screenshoot/popup.webp" width="860px" /><br><br>
+
+> Mobile
+![a](screenshoot/mobile1.webp)
+![b](screenshoot/mobile2.webp)
