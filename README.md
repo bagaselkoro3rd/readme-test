@@ -15,6 +15,6 @@ Live Demo Can access at <a href="https://t-gadget.herokuapp.com/">https://t-gadg
 > Desktop
 > <img src="screenshoot/popup.webp" width="860px" /><br><br>
 
-> Mobile
-![a](screenshoot/mobile1.webp)
-![b](screenshoot/mobile2.webp)
+> Mobile <br>
+>![a](screenshoot/mobile1.webp)
+>![b](screenshoot/mobile2.webp)
