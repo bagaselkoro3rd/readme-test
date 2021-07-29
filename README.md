@@ -18,6 +18,17 @@ This is my first restful api which I made using php native. The purpose of this 
 ## Usage details
 
 ### 1. user activities endpoint
+<details close="close">
+  <summary>Table of Contents</summary>
+  <ul>
+    <li><a href="#user-register">user register</a></li>
+    <li><a href="#login">login</a></li>
+    <li><a href="#user-session">user session</a></li>
+    <li><a href="#user-update">user update</a></li>
+    <li><a href="#logout">logout</a></li>
+    <li><a href="#delete-account">delete account</a></li>
+  </ul>
+</details>
 
 #### user register
 * **URL** <br>
@@ -38,3 +49,5 @@ https://t-gadgetapi.herokuapp.com/user/register
     OR<br/>
     * **code :** 500 Internal Server Error<br />
       **json :** `{ "success": false,"message": {} }`
+* **Notes:** <br>
+fetching, adding, updating and deleting data requires an api-key. so we have to register then login to get the api-key
