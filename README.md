@@ -24,10 +24,10 @@ This is my first restful api which I made using php native. The purpose of this 
 https://t-gadgetapi.herokuapp.com/user/register
 * **Request method** <br>
 `POST`
-* **Params body**
-email    `text` <br> 
-username `text` <br>
-password `text` <br>
+* **Params body** <br>
+  [x] email    `text` <br> 
+  [x] username `text` <br>
+  [x] password `text` <br>
 * **Success response**
     * **code :** 201 Created<br />
       **json :** `{ "success": true,"message": "User register is success!" }`
