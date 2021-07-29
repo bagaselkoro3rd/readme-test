@@ -9,7 +9,7 @@ This is my first restful api which I made using php native. The purpose of this 
 ## Endpoints
 | about | url   | request method | more info |
 | :--:  | :--:  |  :--:  |  :--:  |
-| user activities | https://t-gadgetapi.herokuapp.com/user/:function  | `GET` `POST` `PUT` `DELETE` | <a href="###1.-user-activities-endpoint">detail</a>
+| user activities | https://t-gadgetapi.herokuapp.com/user/:function  | `GET` `POST` `PUT` `DELETE` | <a href="#1-user-activities-endpoint">detail</a>
 | get data | https://t-gadgetapi.herokuapp.com/get/:function  | `GET` | <a href="#get-data-endpoint">detail</a>
 | add data | https://t-gadgetapi.herokuapp.com/add/:function  | `POST` | <a href="#add-data-endpoint">detail</a>
 | change data | https://t-gadgetapi.herokuapp.com/update/:function  | `PUT` | <a href="#change-data-endpoint">detail</a>
