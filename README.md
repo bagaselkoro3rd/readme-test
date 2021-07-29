@@ -20,20 +20,20 @@ This is my first restful api which I made using php native. The purpose of this 
 ### 1. user activities endpoint
 
 #### user register
-* **URL**
+* **URL** <br>
 https://t-gadgetapi.herokuapp.com/user/register
-* **Request method**
+* **Request method** <br>
 `POST`
 * **Params body**
-- email    `text` 
-- username `text`
-- password `text`
+email    `text` <br> 
+username `text` <br>
+password `text` <br>
 * **Success response**
     * **code :** 201 Created<br />
       **json :** `{ "success": true,"message": "User register is success!" }`
 * **Error Response:**
     * **code :** 400 Bad Request<br />
-      **json :** `{ "success": false,"message": {} }`
-    OR
+      **json :** `{ "success": false,"message": {} }` <br/>
+    OR<br/>
     * **code :** 500 Internal Server Error<br />
       **json :** `{ "success": false,"message": {} }`
