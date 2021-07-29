@@ -9,10 +9,31 @@ This is my first restful api which I made using php native. The purpose of this 
 ## Endpoints
 | about | url   | request method | more info |
 | :--:  | :--:  |  :--:  |  :--:  |
-| user activities | https://t-gadgetapi.herokuapp.com/user/:function  | `GET` `POST` `PUT` `DELETE` | <a href="#user-endpoint">detail</a>
+| user activities | https://t-gadgetapi.herokuapp.com/user/:function  | `GET` `POST` `PUT` `DELETE` | <a href="#user-activities">detail</a>
 | get data | https://t-gadgetapi.herokuapp.com/get/:function  | `GET` | <a href="#get-data-endpoint">detail</a>
 | add data | https://t-gadgetapi.herokuapp.com/add/:function  | `POST` | <a href="#add-data-endpoint">detail</a>
 | change data | https://t-gadgetapi.herokuapp.com/update/:function  | `PUT` | <a href="#change-data-endpoint">detail</a>
 | delete data | https://t-gadgetapi.herokuapp.com/delete/:function  | `DELETE` | <a href="#delete-data-endpoint">detail</a>
 
 ## Usage details
+
+### 1. user activities endpoint
+
+#### user register
+* **URL**
+https://t-gadgetapi.herokuapp.com/user/register
+* **Request method**
+`POST`
+* **Params body**
+- email    `text` 
+- username `text`
+- password `text`
+* **Success response**
+    * **code :** 201 Created<br />
+      **json :** `{ "success": true,"message": "User register is success!" }`
+* **Error Response:**
+    * **code :** 400 Bad Request<br />
+      **json :** `{ "success": false,"message": {} }`
+    OR
+    * **code :** 500 Internal Server Error<br />
+      **json :** `{ "success": false,"message": {} }`
