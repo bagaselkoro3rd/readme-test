@@ -25,15 +25,16 @@ https://t-gadgetapi.herokuapp.com/user/register
 * **Request method** <br>
 `POST`
 * **Params body** <br>
-  [x] email    `text` <br> 
-  [x] username `text` <br>
-  [x] password `text` <br>
+  - email     <br> 
+  - username  <br>
+  - password  <br>
 * **Success response**
     * **code :** 201 Created<br />
       **json :** `{ "success": true,"message": "User register is success!" }`
 * **Error Response:**
     * **code :** 400 Bad Request<br />
       **json :** `{ "success": false,"message": {} }` <br/>
+
     OR<br/>
     * **code :** 500 Internal Server Error<br />
       **json :** `{ "success": false,"message": {} }`
