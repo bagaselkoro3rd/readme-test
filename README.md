@@ -41,13 +41,51 @@ https://t-gadgetapi.herokuapp.com/user/register
   - password  <br>
 * **Success response**
     * **code :** 201 Created<br />
-      **json :** `{ "success": true,"message": "User register is success!" }`
+      **json :** 
+      ```
+      { 
+        "success": true,
+        "message": "User register is success!" 
+      }
+      ```
 * **Error Response:**
     * **code :** 400 Bad Request<br />
       **json :** `{ "success": false,"message": {} }` <br/>
 
     OR<br/>
     * **code :** 500 Internal Server Error<br />
-      **json :** `{ "success": false,"message": {} }`
+      **json :** `{ "success": false,"message": "" }`
 * **Notes:** <br>
-fetching, adding, updating and deleting data requires an api-key. so we have to register then login to get the api-key
+*fetching, adding, updating and deleting data requires an api-key. so we have to register then login to get the api-key*
+
+#### login
+* **URL** <br>
+https://t-gadgetapi.herokuapp.com/user/login
+* **Request method** <br>
+`POST`
+* **Params body** 
+  - username  <br>
+  - password  <br>
+* **Success response**
+    * **code :** 200 Ok<br />
+      **json :** 
+      ```
+      { 
+        "success": true,
+        "data": {
+            user_id:"",
+            api_key:"",
+            token:"",
+            created_at:""
+        } 
+      }
+      ```
+* **Error Response:**
+    * **code :** 401 Unauthorized<br />
+      **json :** `{ "success": false,"message": "" }` <br/>
+
+    OR<br/>
+    * **code :** 500 Internal Server Error<br />
+      **json :** `{ "success": false,"message": "" }`
+* **Notes:** <br>
+*token lifetime is 1 hour*
