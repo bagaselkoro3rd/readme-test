@@ -1,4 +1,5 @@
 # USER ACTIVITIES ENDPOINT
+<a href="../../README.md"><strong>« back to menu</strong></a>
 
 <details close="close">
   <summary>Table of Contents</summary>
