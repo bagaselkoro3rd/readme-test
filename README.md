@@ -13,4 +13,4 @@ This is my first restful api which I made using php native. The purpose of this 
 | get data | https://t-gadgetapi.herokuapp.com/get/:function  | `GET` | <a href="/sub-readme/get-data/README.md">detail</a>
 | add data | https://t-gadgetapi.herokuapp.com/add/:function  | `POST` | <a href="/sub-readme/add-data/README.md">detail</a>
 | change data | https://t-gadgetapi.herokuapp.com/update/:function  | `PUT` | <a href="#change-data-endpoint">detail</a>
-| delete data | https://t-gadgetapi.herokuapp.com/delete/:function  | `DELETE` | <a href="#delete-data-endpoint">detail</a>
+| delete data | https://t-gadgetapi.herokuapp.com/delete/:function  | `DELETE` | <a href="/sub-readme/delete-data/README.md">detail</a>
