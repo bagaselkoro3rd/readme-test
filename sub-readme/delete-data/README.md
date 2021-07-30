@@ -38,7 +38,7 @@ https://t-gadgetapi.herokuapp.com/delete/category
     * **code :** 500 Internal Server Error<br />
       **json :** `{ "success": false,"message": "" }`
 
-## 1.2 add testimoni
+## 1.2 delete testimoni
 * **URL** <br>
 https://t-gadgetapi.herokuapp.com/delete/testimoni
 * **Request method** <br>
@@ -65,7 +65,7 @@ https://t-gadgetapi.herokuapp.com/delete/testimoni
     * **code :** 500 Internal Server Error<br />
       **json :** `{ "success": false,"message": "" }`
 
-## 1.3 add banner
+## 1.3 delete banner
 * **URL** <br>
 https://t-gadgetapi.herokuapp.com/delete/banner
 * **Request method** <br>
