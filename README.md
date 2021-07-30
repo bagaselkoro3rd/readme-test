@@ -21,8 +21,8 @@ This is my first restful api which I made using php native. The purpose of this 
 <details close="close">
   <summary>Table of Contents</summary>
   <ul>
-    <li><a href="#user-register">user register</a></li>
-    <li><a href="#login">login</a></li>
+    <li><a href="#1.1-user-register">user register</a></li>
+    <li><a href="#1.2-login">login</a></li>
     <li><a href="#user-session">user session</a></li>
     <li><a href="#user-update">user update</a></li>
     <li><a href="#logout">logout</a></li>
@@ -30,7 +30,7 @@ This is my first restful api which I made using php native. The purpose of this 
   </ul>
 </details>
 
-#### user register
+#### 1.1 user register
 * **URL** <br>
 https://t-gadgetapi.herokuapp.com/user/register
 * **Request method** <br>
@@ -58,7 +58,7 @@ https://t-gadgetapi.herokuapp.com/user/register
 * **Notes:** <br>
 *fetching, adding, updating and deleting data requires an api-key. so we have to register then login to get the api-key*
 
-#### login
+#### 1.2 login
 * **URL** <br>
 https://t-gadgetapi.herokuapp.com/user/login
 * **Request method** <br>
@@ -68,7 +68,7 @@ https://t-gadgetapi.herokuapp.com/user/login
   - password  <br>
 * **Success response**
     * **code :** 200 Ok<br />
-      **json  :** 
+      **json :** 
       ```
       { 
         "success": true,
@@ -82,10 +82,10 @@ https://t-gadgetapi.herokuapp.com/user/login
       ```
 * **Error Response:**
     * **code :** 401 Unauthorized<br />
-      **json  :** `{ "success": false,"message": "" }` <br/>
+      **json :** `{ "success": false,"message": "" }` <br/>
 
     OR<br/>
     * **code :** 500 Internal Server Error<br />
-      **json  :** `{ "success": false,"message": "" }`
+      **json :** `{ "success": false,"message": "" }`
 * **Notes:** <br>
 *token lifetime is 1 hour*
