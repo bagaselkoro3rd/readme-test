@@ -1,7 +1,7 @@
 # USER ACTIVITIES ENDPOINT
 <a href="../../README.md"><strong>« back to menu</strong></a>
 
-<details close="close">
+<details open="open">
   <summary>Table of Contents</summary>
   <ul>
     <li><a href="#11-user-register">user register</a></li>
